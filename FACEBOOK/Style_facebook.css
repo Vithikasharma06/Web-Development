@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f0f2f5;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.container{
+    width:430px;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.logo img{
+    width:240px;
+}
+
+.signup-box{
+    background:white;
+    border-radius:8px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+.header{
+    text-align:center;
+    padding:18px;
+}
+
+.header h1{
+    font-size:32px;
+    margin-bottom:5px;
+}
+
+.header p{
+    color:gray;
+}
+
+.header hr{
+    margin-top:15px;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+form{
+    padding:18px;
+}
+
+.name-row{
+    display:flex;
+    gap:10px;
+    margin-bottom:12px;
+}
+
+.name-row input{
+    width:50%;
+}
+
+input[type=text],
+input[type=password]{
+    width:100%;
+    padding:11px;
+    margin-bottom:12px;
+    border:1px solid #ccd0d5;
+    border-radius:5px;
+    font-size:15px;
+}
+
+label{
+    font-size:13px;
+    color:#606770;
+    display:block;
+    margin-bottom:6px;
+}
+
+.select-row{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+.select-row select{
+    flex:1;
+    padding:8px;
+    border:1px solid #ccd0d5;
+    border-radius:5px;
+}
+
+.gender-row{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+.gender-option{
+    flex:1;
+    border:1px solid #ccd0d5;
+    border-radius:5px;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:14px;
+}
+
+.note p{
+    font-size:11px;
+    color:#777;
+    margin-bottom:10px;
+    line-height:1.4;
+}
+
+.note a{
+    color:#1877f2;
+    text-decoration:none;
+}
+
+button{
+    display:block;
+    width:200px;
+    margin:20px auto;
+    background:#00a400;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:6px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#008c00;
+}
+
+.login-link{
+    display:block;
+    text-align:center;
+    color:#1877f2;
+    text-decoration:none;
+    margin-top:10px;
+    margin-bottom:10px;
+}
