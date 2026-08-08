@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" method="get">
+        <label>First Name:</label>
+        <input type="text" name="F_Name" placeholder="Enter your first name" required><br><br>
+        <label>Last Name:</label>
+        <input type="text" name="L_Name" placeholder="Enter your last name" required><br><br>
+
+        <label>Email: </label>
+        <input type="email" name="Email" placeholder="sample@gmail.com" required><br><br>
+
+        <label>Password: </label>
+        <input type="password" name="password" required><br><br>
+
+        <label>Date of Birth: </label>
+        <input type="Date" name="DOB"> <br><br>
+
+        <label>Age: </label>
+        <input type="number" name="age" min="1" max="100"><br><br>
+
+        <label>Gender: </label>
+        <input type="radio" name="gender" value="Male"><label>Male</label>
+        <input type="radio" name="gender" value="Female"><label>Female</label>
+        <input type="radio" name="gender" value="Other"><label>Other</label><br><br>
+
+        <label>Hobbies: </label>
+        <input type="checkbox" name="hobby" value="Reading"><label>Reading</label>
+        <input type="checkbox" name="hobby" value="Dance"><label>Dance</label>
+        <input type="checkbox" name="hobby" value="Sports"><label>Sports</label>
+        <input type="checkbox" name="hobby" value="Gaming"><label>Gaming</label>
+        <input type="checkbox" name="hobby" value="Singing"><label>Singing</label><br><br>
+
+        <label>Course: </label>
+        <select name="course">
+            <option value="">Select Course</option>
+            <option value="B.E">B.E</option>
+            <option value="Btech">Btech</option>
+            <option value="Bsc">Bsc</option>
+            <option value="Mba">Mba</option>
+            <option value="Bcom">Bcom</option>
+        </select><br><br>
+
+        <label>Address: </label>
+        <textarea name="address" rows="5" cols="50" placeholder="Enter a full address"></textarea><br><br>
+
+        <label>File Upload: </label>
+        <input type="file" name="photograph"><br><br>
+
+        <label>Fav. Color: </label>
+        <input type="color" name="color"><br><br>
+
+        <label>Skill Level: </label>
+        <input type="range" name="skill" min="1" max="5"><br><br>
+
+        <label>Github Link: </label>
+        <input type="url" name="github" placeholder="Enter the github link" required><br><br>
+
+        <label>Joining Month: </label>
+        <input type="month" name="month"><br><br>
+        <label>Joining week: </label>
+        <input type="week" name="week"><br><br>
+        <label>Joining time: </label>
+        <input type="time" name="time"><br><br>
+
+        <input type="hidden" value="registration"><br><br>
+
+        <input type="submit" value="Registration">
+        <input type="reset" value="Reset">
+
+    
+    </form>
+</body>
+</html>
