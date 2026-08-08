@@ -1,0 +1,466 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   PAGE
+========================= */
+
+body {
+
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    padding: 55px 20px;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+
+    width: 430px;
+
+    background-color: white;
+
+    border: 5px double #555;
+
+    box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+
+    text-align: center;
+
+    padding: 18px 18px 10px;
+}
+
+
+.header h1 {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+
+.header p {
+
+    font-size: 7px;
+
+    line-height: 10px;
+
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+form {
+
+    padding: 0 15px 12px;
+}
+
+
+/* =========================
+   BASIC INFORMATION
+========================= */
+
+.basic-info {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+
+.basic-info input {
+
+    flex: 1;
+
+    width: 100%;
+
+    height: 25px;
+
+    padding: 5px;
+
+    border: none;
+
+    background-color: #f0f0f0;
+
+    font-size: 8px;
+
+    outline: none;
+}
+
+
+/* =========================
+   ADDRESS
+========================= */
+
+.address-row {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+
+.address-row input {
+
+    flex: 1;
+
+    width: 100%;
+
+    height: 25px;
+
+    padding: 5px;
+
+    border: none;
+
+    background-color: #f0f0f0;
+
+    font-size: 8px;
+
+    outline: none;
+}
+
+
+/* =========================
+   CITY + PHONE
+========================= */
+
+.city-row {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 12px;
+}
+
+
+.city-row > input {
+
+    flex: 1;
+
+    height: 25px;
+
+    padding: 5px;
+
+    border: none;
+
+    background-color: #f0f0f0;
+
+    font-size: 8px;
+
+    outline: none;
+}
+
+
+/* =========================
+   PHONE
+========================= */
+
+.phone-no {
+
+    flex: 1;
+
+    height: 25px;
+
+    background-color: #f0f0f0;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 3px;
+
+    padding: 4px;
+
+    font-size: 7px;
+}
+
+
+.phone-no span {
+
+    margin-right: 2px;
+}
+
+
+.phone-no input[type="radio"] {
+
+    width: 8px;
+
+    height: 8px;
+
+    margin: 0;
+}
+
+
+.phone-no label {
+
+    font-size: 7px;
+}
+
+
+/* =========================
+   HORIZONTAL LINE
+========================= */
+
+form > hr {
+
+    border: none;
+
+    border-top: 1px solid #777;
+
+    margin: 0 0 12px;
+}
+
+
+/* =========================
+   SECTION HEADINGS
+========================= */
+
+form h2 {
+
+    background-color: #d3d3d3;
+
+    text-align: center;
+
+    font-size: 12px;
+
+    padding: 5px;
+
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   CONTACT DETAILS
+========================= */
+
+.contact-row {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+
+.contact-row input {
+
+    flex: 1;
+
+    width: 100%;
+
+    height: 25px;
+
+    padding: 5px;
+
+    border: none;
+
+    background-color: #f0f0f0;
+
+    font-size: 8px;
+
+    outline: none;
+}
+
+
+/* =========================
+   OTHER INFORMATION
+========================= */
+
+.other-info-row {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+
+.other-info-row input {
+
+    flex: 1;
+
+    width: 100%;
+
+    height: 25px;
+
+    padding: 5px;
+
+    border: none;
+
+    background-color: #f0f0f0;
+
+    font-size: 8px;
+
+    outline: none;
+}
+
+
+/* =========================
+   PAYMENT
+========================= */
+
+.payment-row {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+
+.payment-row > input {
+
+    flex: 1;
+
+    height: 25px;
+
+    padding: 5px;
+
+    border: none;
+
+    background-color: #f0f0f0;
+
+    font-size: 8px;
+
+    outline: none;
+}
+
+
+/* =========================
+   AMOUNT BOX
+========================= */
+
+.amount-box {
+
+    width: 125px;
+
+    height: 25px;
+
+    background-color: #f0f0f0;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 8px;
+
+    font-size: 8px;
+}
+
+
+.amount-box span {
+
+    margin-right: 5px;
+}
+
+
+.amount-box input {
+
+    width: 100%;
+
+    height: 100%;
+
+    border: none;
+
+    background: transparent;
+
+    outline: none;
+
+    font-size: 8px;
+}
+
+
+/* =========================
+   FINAL DESCRIPTION
+========================= */
+
+.final-description {
+
+    font-size: 7px;
+
+    line-height: 10px;
+
+    margin: 16px 0 8px;
+}
+
+
+/* =========================
+   WEBSITE
+========================= */
+
+.website {
+
+    text-align: center;
+
+    font-size: 7px;
+
+    margin-top: 14px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 500px) {
+
+    body {
+
+        padding: 20px 10px;
+    }
+
+
+    .container {
+
+        width: 100%;
+    }
+
+
+    .basic-info,
+    .address-row,
+    .city-row,
+    .contact-row,
+    .other-info-row {
+
+        gap: 5px;
+    }
+
+}
